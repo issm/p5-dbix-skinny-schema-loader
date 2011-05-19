@@ -11,6 +11,7 @@ test_requires 'Class::Data::Inheritable';
 test_requires 'DBD::SQLite';
 test_requires 'Test::More';
 test_requires 'Test::Exception';
+test_requires 'Test::Differences';
 include 'Sub::Uplevel';
 
 WriteAll;
